@@ -23,4 +23,5 @@ copias/
 Thumbs.db
 
 
-CLAVE=7791293020203
+# Ignorar .env y otros archivos sensibles
+.env
