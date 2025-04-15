@@ -32,3 +32,20 @@ pip install pyinstaller
 
 pyinstaller --noconfirm --onefile --windowed transformador_gui_final.py
 pyinstaller --noconfirm --onefile gestionar_sesiones_telegram_FINAL.py
+
+
+Requiere [Bat_To_Exe_Converter](https://bat-to-exe-converter.en.lo4d.com/windows) para la conversión de `.bat` a `.exe`.
+
+
+## 📂 Carpeta `copias/` – Manejo seguro de sesiones Telegram
+
+Durante el uso del script `gestionar_sesiones_telegram_FINAL.py`, se genera automáticamente una carpeta llamada `copias/`, que almacena duplicados de tus archivos `.session`.
+
+🔐 Por razones de seguridad:
+
+- Los archivos `.session` **no se incluyen en este repositorio**.
+- Están listados en `.gitignore` para evitar su publicación accidental.
+- Cada usuario debe generar sus propias sesiones ejecutando el script localmente.
+
+Esto asegura que tu cuenta de Telegram permanezca protegida.
+
