@@ -1,0 +1,23 @@
+# Archivos compilados y ejecutables
+*.exe
+*.spec
+
+# Directorios generados por PyInstaller
+build/
+dist/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Sesiones confidenciales de Telegram
+*.session
+*.session-journal
+copias/
+
+# Entornos virtuales
+.venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
